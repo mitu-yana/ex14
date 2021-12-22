@@ -1,6 +1,4 @@
 package com.company;
-import java.util.Random;
-import java.util.Arrays;
 
 public class Main {
 
@@ -8,7 +6,7 @@ public class Main {
         double[] myArray;
         myArray = new double [15];
         for (int i = 0; i < myArray.length; i++) {
-            myArray[i] = ((double) (Math.random()*40) -20);
+            myArray[i] = ((Math.random()*40) -20);
             System.out.println(myArray[i]);
         }
         double  maxNum = myArray[0];
